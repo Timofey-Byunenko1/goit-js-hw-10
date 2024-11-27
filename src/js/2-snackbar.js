@@ -1,4 +1,6 @@
-// Імпорт бібліотеки iziToast через CDN уже включений в HTML.
+
+import flatpickr from "flatpickr";
+import "flatpickr/dist/flatpickr.min.css";
 
 document.querySelector('.form').addEventListener('submit', (event) => {
     event.preventDefault(); // Зупиняємо стандартну поведінку форми
