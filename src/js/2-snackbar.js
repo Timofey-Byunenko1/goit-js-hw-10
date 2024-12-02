@@ -1,6 +1,6 @@
 
-import flatpickr from "flatpickr";
-import "flatpickr/dist/flatpickr.min.css";
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
 
 document.querySelector('.form').addEventListener('submit', (event) => {
     event.preventDefault(); // Зупиняємо стандартну поведінку форми
